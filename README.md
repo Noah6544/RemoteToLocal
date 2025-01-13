@@ -1,2 +1,12 @@
-# RemoteToLocal
-I always forget the stupid steps to pull a new remote repo into local folder
+…or create a new repository on the command line
+echo "# asdfsafd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Noah6544/asdfsafd.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Noah6544/asdfsafd.git
+git branch -M main
+git push -u origin main
